@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/doddi/Documents/Quartus_projects/1kb_ram/simulation/modelsim
+vhard_block
+Z1 !s110 1694796551
+!i10b 1
+!s100 iIG@IP>^bHEXj?gZ>zYao0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`08JZO^6HUJo96>^0`BXf2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1694796540
+Z5 81kb_ram_module.vo
+Z6 F1kb_ram_module.vo
+!i122 0
+L0 1700 45
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1694796550.000000
+Z9 !s107 1kb_ram_module.vo|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|1kb_ram_module.vo|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work +incdir+.
+Z13 tCvgOpt 0
+vram
+R1
+!i10b 1
+!s100 R1=gz6DA:^=kMRPZ@bbVT3
+R2
+IT^U^lWGn`K:RfBNSG1m>z1
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 32 1667
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+vram_tb
+R1
+!i10b 1
+!s100 ?2>UPIk_2B9hKT7MO]7KP1
+R2
+IVDH1]f8_4RKFK>=2b<8UV3
+R3
+R0
+w1692945620
+8C:/Users/doddi/Documents/Quartus_projects/1kb_ram/ram_tb.v
+FC:/Users/doddi/Documents/Quartus_projects/1kb_ram/ram_tb.v
+!i122 1
+L0 3 40
+R7
+r1
+!s85 0
+31
+!s108 1694796551.000000
+!s107 C:/Users/doddi/Documents/Quartus_projects/1kb_ram/ram_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/doddi/Documents/Quartus_projects/1kb_ram|C:/Users/doddi/Documents/Quartus_projects/1kb_ram/ram_tb.v|
+!i113 1
+R11
+!s92 -vlog01compat -work work +incdir+C:/Users/doddi/Documents/Quartus_projects/1kb_ram
+R13

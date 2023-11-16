@@ -1,0 +1,377 @@
+# Reading pref.tcl
+# do 1kb_ram_module_run_msim_gate_verilog.do
+# if ![file isdirectory verilog_libs] {
+# 	file mkdir verilog_libs
+# }
+# 
+# vlib verilog_libs/altera_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_ver".
+# vmap altera_ver ./verilog_libs/altera_ver
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap altera_ver ./verilog_libs/altera_ver 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# vlog -vlog01compat -work altera_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:19:06 on Sep 15,2023
+# vlog -reportprogress 300 -vlog01compat -work altera_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v 
+# -- Compiling module global
+# -- Compiling module carry
+# -- Compiling module cascade
+# -- Compiling module carry_sum
+# -- Compiling module exp
+# -- Compiling module soft
+# -- Compiling module opndrn
+# -- Compiling module row_global
+# -- Compiling module TRI
+# -- Compiling module lut_input
+# -- Compiling module lut_output
+# -- Compiling module latch
+# -- Compiling module dlatch
+# -- Compiling module prim_gdff
+# -- Compiling module dff
+# -- Compiling module dffe
+# -- Compiling module dffea
+# -- Compiling module dffeas
+# -- Compiling module dffeas_pr
+# -- Compiling module prim_gtff
+# -- Compiling module tff
+# -- Compiling module tffe
+# -- Compiling module prim_gjkff
+# -- Compiling module jkff
+# -- Compiling module jkffe
+# -- Compiling module prim_gsrff
+# -- Compiling module srff
+# -- Compiling module srffe
+# -- Compiling module clklock
+# -- Compiling module alt_inbuf
+# -- Compiling module alt_outbuf
+# -- Compiling module alt_outbuf_tri
+# -- Compiling module alt_iobuf
+# -- Compiling module alt_inbuf_diff
+# -- Compiling module alt_outbuf_diff
+# -- Compiling module alt_outbuf_tri_diff
+# -- Compiling module alt_iobuf_diff
+# -- Compiling module alt_bidir_diff
+# -- Compiling module alt_bidir_buf
+# -- Compiling UDP PRIM_GDFF_LOW
+# -- Compiling UDP PRIM_GDFF_LOW_SCLR_PRIORITY
+# -- Compiling UDP PRIM_GDFF_HIGH
+# -- Compiling UDP PRIM_GDFF_HIGH_SCLR_PRIORITY
+# 
+# Top level modules:
+# 	global
+# 	carry
+# 	cascade
+# 	carry_sum
+# 	exp
+# 	soft
+# 	opndrn
+# 	row_global
+# 	TRI
+# 	lut_input
+# 	lut_output
+# 	latch
+# 	dlatch
+# 	dff
+# 	dffe
+# 	dffea
+# 	dffeas
+# 	dffeas_pr
+# 	tff
+# 	tffe
+# 	jkff
+# 	jkffe
+# 	srff
+# 	srffe
+# 	clklock
+# 	alt_inbuf
+# 	alt_outbuf
+# 	alt_outbuf_tri
+# 	alt_iobuf
+# 	alt_inbuf_diff
+# 	alt_outbuf_diff
+# 	alt_outbuf_tri_diff
+# 	alt_iobuf_diff
+# 	alt_bidir_diff
+# 	alt_bidir_buf
+# End time: 22:19:06 on Sep 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/altera_lnsim_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_lnsim_ver".
+# vmap altera_lnsim_ver ./verilog_libs/altera_lnsim_ver
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap altera_lnsim_ver ./verilog_libs/altera_lnsim_ver 
+# Modifying modelsim.ini
+# vlog -sv -work altera_lnsim_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:19:07 on Sep 15,2023
+# vlog -reportprogress 300 -sv -work altera_lnsim_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv 
+# -- Compiling package altera_lnsim_functions
+# -- Compiling package altera_generic_pll_functions
+# -- Compiling module generic_pll
+# -- Importing package altera_lnsim_functions
+# -- Importing package altera_generic_pll_functions
+# -- Compiling module generic_cdr
+# -- Compiling module common_28nm_ram_pulse_generator
+# -- Compiling module common_28nm_ram_register
+# -- Compiling module common_28nm_ram_block
+# -- Compiling module generic_m20k
+# -- Compiling module generic_m10k
+# -- Compiling module common_28nm_mlab_cell_pulse_generator
+# -- Compiling module common_28nm_mlab_latch
+# -- Compiling module common_28nm_mlab_cell_core
+# -- Compiling module common_porta_latches
+# -- Compiling module generic_28nm_hp_mlab_cell_impl
+# -- Compiling module common_porta_registers
+# -- Compiling module generic_28nm_lc_mlab_cell_impl
+# -- Compiling module common_28nm_lutram_register
+# -- Compiling module generic_14nm_mlab_cell_impl
+# -- Compiling module common_14nm_lutram_register
+# -- Compiling module generic_mux
+# -- Compiling module generic_device_pll
+# -- Compiling module altera_mult_add
+# -- Compiling module altera_mult_add_rtl
+# -- Compiling module ama_signed_extension_function
+# -- Compiling module ama_dynamic_signed_function
+# -- Compiling module ama_register_function
+# -- Compiling module ama_register_with_ext_function
+# -- Compiling module ama_data_split_reg_ext_function
+# -- Compiling module ama_coef_reg_ext_function
+# -- Compiling module ama_adder_function
+# -- Compiling module ama_multiplier_function
+# -- Compiling module ama_preadder_function
+# -- Compiling module ama_chainout_adder_accumulator_function
+# -- Compiling module ama_systolic_adder_function
+# -- Compiling module ama_scanchain
+# -- Compiling module ama_latency_function
+# -- Compiling module altera_pll_reconfig_tasks
+# -- Compiling module altera_syncram
+# -- Compiling module altera_syncram_forwarding_logic
+# -- Compiling module ALTERA_LNSIM_MEMORY_INITIALIZATION
+# -- Compiling module altera_stratixv_pll
+# -- Compiling module altera_arriav_pll
+# -- Compiling module altera_arriavgz_pll
+# -- Compiling module altera_cyclonev_pll
+# -- Compiling module altera_pll
+# -- Compiling module dps_extra_kick
+# -- Compiling module dprio_init
+# -- Compiling module dps_pulse_gen
+# -- Compiling module altera_iopll
+# -- Compiling module dps_pulse_gen_iopll
+# -- Compiling module twentynm_iopll_arlol
+# -- Compiling module fourteennm_altera_iopll
+# -- Compiling module dps_pulse_gen_fourteennm_iopll
+# -- Compiling package fourteennm_iopll_functions
+# -- Compiling module fourteennm_simple_iopll
+# -- Importing package fourteennm_iopll_functions
+# -- Compiling module fourteennm_sub_iopll
+# -- Compiling module twentynm_iopll_ip
+# -- Compiling module altera_iopll_rotation_lcells
+# -- Compiling module altera_pll_dps_lcell_comb
+# -- Compiling module iopll_bootstrap
+# 
+# Top level modules:
+# 	generic_cdr
+# 	generic_m20k
+# 	generic_m10k
+# 	common_porta_latches
+# 	generic_28nm_hp_mlab_cell_impl
+# 	generic_28nm_lc_mlab_cell_impl
+# 	generic_14nm_mlab_cell_impl
+# 	generic_mux
+# 	generic_device_pll
+# 	altera_mult_add
+# 	altera_pll_reconfig_tasks
+# 	altera_syncram
+# 	altera_pll
+# 	altera_iopll
+# 	fourteennm_altera_iopll
+# 	fourteennm_simple_iopll
+# End time: 22:19:07 on Sep 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/fiftyfivenm_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/fiftyfivenm_ver".
+# vmap fiftyfivenm_ver ./verilog_libs/fiftyfivenm_ver
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap fiftyfivenm_ver ./verilog_libs/fiftyfivenm_ver 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work fiftyfivenm_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/fiftyfivenm_atoms.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:19:07 on Sep 15,2023
+# vlog -reportprogress 300 -vlog01compat -work fiftyfivenm_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/fiftyfivenm_atoms.v 
+# -- Compiling UDP FIFTYFIVENM_PRIM_DFFE
+# -- Compiling UDP FIFTYFIVENM_PRIM_DFFEAS
+# -- Compiling UDP FIFTYFIVENM_PRIM_DFFEAS_HIGH
+# -- Compiling module fiftyfivenm_dffe
+# -- Compiling module fiftyfivenm_mux21
+# -- Compiling module fiftyfivenm_mux41
+# -- Compiling module fiftyfivenm_and1
+# -- Compiling module fiftyfivenm_and16
+# -- Compiling module fiftyfivenm_bmux21
+# -- Compiling module fiftyfivenm_b17mux21
+# -- Compiling module fiftyfivenm_nmux21
+# -- Compiling module fiftyfivenm_b5mux21
+# -- Compiling module fiftyfivenm_latch
+# -- Compiling module fiftyfivenm_routing_wire
+# -- Compiling module fiftyfivenm_lcell_comb
+# -- Compiling module fiftyfivenm_ff
+# -- Compiling module fiftyfivenm_ram_pulse_generator
+# -- Compiling module fiftyfivenm_ram_register
+# -- Compiling module fiftyfivenm_ram_block
+# -- Compiling module fiftyfivenm_mac_data_reg
+# -- Compiling module fiftyfivenm_mac_sign_reg
+# -- Compiling module fiftyfivenm_mac_mult_internal
+# -- Compiling module fiftyfivenm_mac_mult
+# -- Compiling module fiftyfivenm_mac_out
+# -- Compiling module fiftyfivenm_pseudo_diff_out
+# -- Compiling module fiftyfivenm_io_pad
+# -- Compiling module fiftyfivenm_m_cntr
+# -- Compiling module fiftyfivenm_n_cntr
+# -- Compiling module fiftyfivenm_scale_cntr
+# -- Compiling module fiftyfivenm_pll_reg
+# -- Compiling module fiftyfivenm_pll
+# -- Compiling module fiftyfivenm_ena_reg
+# -- Compiling module fiftyfivenm_clkctrl
+# -- Compiling module fiftyfivenm_io_latch
+# -- Compiling module fiftyfivenm_phy_clkbuf
+# -- Compiling module fiftyfivenm_io_clock_divider
+# -- Compiling module fiftyfivenm_io_ibuf
+# -- Compiling module fiftyfivenm_io_obuf
+# -- Compiling module fiftyfivenm_ddio_out
+# -- Compiling module fiftyfivenm_ddio_oe
+# -- Compiling module fiftyfivenm_ddio_in
+# -- Compiling module fiftyfivenm_unvm
+# -- Compiling module fiftyfivenm_asmiblock
+# -- Compiling module fiftyfivenm_chipidblock
+# -- Compiling module fiftyfivenm_oscillator
+# -- Compiling module fiftyfivenm_controller
+# -- Compiling module fiftyfivenm_crcblock
+# -- Compiling module fiftyfivenm_rublock
+# -- Compiling module fiftyfivenm_jtag
+# -- Compiling module fiftyfivenm_adcblock
+# -- Compiling module fiftyfivenm_phase_detector
+# 
+# Top level modules:
+# 	fiftyfivenm_dffe
+# 	fiftyfivenm_mux21
+# 	fiftyfivenm_and1
+# 	fiftyfivenm_and16
+# 	fiftyfivenm_bmux21
+# 	fiftyfivenm_b17mux21
+# 	fiftyfivenm_nmux21
+# 	fiftyfivenm_b5mux21
+# 	fiftyfivenm_latch
+# 	fiftyfivenm_routing_wire
+# 	fiftyfivenm_lcell_comb
+# 	fiftyfivenm_ff
+# 	fiftyfivenm_ram_block
+# 	fiftyfivenm_mac_mult
+# 	fiftyfivenm_mac_out
+# 	fiftyfivenm_pseudo_diff_out
+# 	fiftyfivenm_io_pad
+# 	fiftyfivenm_pll_reg
+# 	fiftyfivenm_pll
+# 	fiftyfivenm_clkctrl
+# 	fiftyfivenm_io_latch
+# 	fiftyfivenm_phy_clkbuf
+# 	fiftyfivenm_io_clock_divider
+# 	fiftyfivenm_io_ibuf
+# 	fiftyfivenm_io_obuf
+# 	fiftyfivenm_ddio_out
+# 	fiftyfivenm_ddio_oe
+# 	fiftyfivenm_ddio_in
+# 	fiftyfivenm_unvm
+# 	fiftyfivenm_asmiblock
+# 	fiftyfivenm_chipidblock
+# 	fiftyfivenm_oscillator
+# 	fiftyfivenm_controller
+# 	fiftyfivenm_crcblock
+# 	fiftyfivenm_rublock
+# 	fiftyfivenm_jtag
+# 	fiftyfivenm_adcblock
+# 	fiftyfivenm_phase_detector
+# End time: 22:19:08 on Sep 15,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work fiftyfivenm_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/fiftyfivenm_atoms_ncrypt.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:19:08 on Sep 15,2023
+# vlog -reportprogress 300 -vlog01compat -work fiftyfivenm_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/fiftyfivenm_atoms_ncrypt.v 
+# 
+# Top level modules:
+# End time: 22:19:10 on Sep 15,2023, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work gate_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {1kb_ram_module.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:19:10 on Sep 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." 1kb_ram_module.vo 
+# -- Compiling module ram
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	ram
+# End time: 22:19:11 on Sep 15,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/doddi/Documents/Quartus_projects/1kb_ram {C:/Users/doddi/Documents/Quartus_projects/1kb_ram/ram_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:19:11 on Sep 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/doddi/Documents/Quartus_projects/1kb_ram" C:/Users/doddi/Documents/Quartus_projects/1kb_ram/ram_tb.v 
+# -- Compiling module ram_tb
+# 
+# Top level modules:
+# 	ram_tb
+# End time: 22:19:11 on Sep 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs="+acc"  ram_tb
+# vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs=""+acc"" ram_tb 
+# Start time: 22:19:11 on Sep 15,2023
+# Loading work.ram_tb
+# Loading work.ram
+# Loading work.hard_block
+# Loading fiftyfivenm_ver.fiftyfivenm_lcell_comb
+# Loading fiftyfivenm_ver.fiftyfivenm_io_obuf
+# Loading fiftyfivenm_ver.fiftyfivenm_io_ibuf
+# Loading fiftyfivenm_ver.fiftyfivenm_clkctrl
+# Loading fiftyfivenm_ver.fiftyfivenm_mux41
+# Loading fiftyfivenm_ver.fiftyfivenm_ena_reg
+# Loading fiftyfivenm_ver.fiftyfivenm_ram_block
+# Loading fiftyfivenm_ver.fiftyfivenm_ram_register
+# Loading fiftyfivenm_ver.fiftyfivenm_ram_pulse_generator
+# Loading altera_ver.dffeas
+# Loading fiftyfivenm_ver.fiftyfivenm_unvm
+# Loading fiftyfivenm_ver.fiftyfivenm_adcblock
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\~QUARTUS_CREATED_ADC1~ '.  Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_tb/r/\~QUARTUS_CREATED_ADC1~  File: 1kb_ram_module.vo Line: 1637
+# ** Warning: (vsim-3722) 1kb_ram_module.vo(1637): [TFMPC] - Missing connection for port 'clk_dft'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\~QUARTUS_CREATED_ADC2~ '.  Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_tb/r/\~QUARTUS_CREATED_ADC2~  File: 1kb_ram_module.vo Line: 1660
+# ** Warning: (vsim-3722) 1kb_ram_module.vo(1660): [TFMPC] - Missing connection for port 'clk_dft'.
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: doddi  Hostname: IGRIS  ProcessID: 15512
+#           Attempting to use alternate WLF file "./wlftmc3a7t".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmc3a7t
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 22:19:58 on Sep 15,2023, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 6
